@@ -50,7 +50,7 @@ namespace SimpleAPI.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "Max Power";
+            return "Robert Butler";
         }
 
         // POST api/values
