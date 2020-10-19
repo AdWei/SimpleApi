@@ -21,7 +21,7 @@ steps:
     inputs:
       command: test
       projects: '**/*Test/*.csproj'
-      argumrnts: '--configuration $(buildConfiguration)'
+      arguments: '--configuration $(buildConfiguration)'
 =======
   inputs:
     command: test
