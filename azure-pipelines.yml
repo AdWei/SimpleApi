@@ -17,10 +17,17 @@ variables:
 steps:
 
 - task: DotNetCoreCLI@2
+<<<<<<< HEAD
     inputs:
       command: test
       projects: '**/*Test/*.csproj'
       argumrnts: '--configuration $(buildConfiguration)'
+=======
+  inputs:
+    command: test
+    projects: '**/*Test/*.csproj'
+    argumrnts: '--configuration $(buildConfiguration)'
+>>>>>>> 8d91ad235714caddce101c9903aaabc8dbe9a435
 
 - task: NuGetToolInstaller@1
 
